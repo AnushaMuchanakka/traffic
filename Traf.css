@@ -1,0 +1,58 @@
+body
+{
+    height:100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box
+{
+    height:500px;
+    width: 250px;
+    justify-items:center;
+    align-items: center;
+    background-color:black;
+    display: flex;
+    border-radius:25px ;
+    flex-direction:row;
+    gap: 100px;
+    padding-left: 70px;
+}
+p
+{
+    height: 80px;
+    width:80px;
+    display: flex;
+    flex-direction: column;
+    border-radius:75px;
+    column-gap: 100px;
+    background-color:grey;
+    align-items: center;
+    justify-items: center;
+   column-gap: 50px;
+    
+}
+.button
+{
+    display: flex;
+    flex-direction: row;
+    justify-items: right;
+    height: 100px;
+    weight: 100px;
+    padding-right: 50px;
+}
+.items
+{
+    column-gap: 200px;
+    justify-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 90px;
+    font-size: 100px;
+    height:250px;
+}
